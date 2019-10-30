@@ -2,7 +2,8 @@
 
 /**
  *  Representa a un cliente que hace un pedido 
- */
+ *  Antonio Nieto
+    */
 public class Cliente
 {
     private String nombre;
@@ -52,14 +53,17 @@ public class Cliente
      * representación textual del cliente
      */
     public String toString() {
+         String lineaFormateada = String.format(
+         "%10s: %-10s \n%10s: %-10s \n%10s: %-10s \n%10s: %-10s","NOMBRE",this.getNombre(),"DIRECCION",this.getDireccion(),"CIUDAD", this.getCiudad(),"PROVINCIA", this.getProvincia());
          
-          
+          return lineaFormateada;
     }
     
     /**
      * 
      */
     public void print() {
+        System.out.println();
         System.out.println(this.toString());
     }
 
