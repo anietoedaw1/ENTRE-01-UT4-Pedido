@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
  *  Clase para probar el resto de clases
- *  Antonio Nieto
+ *  Antonio Nieto Elizalde
  */
 public class TestPedido
 {
